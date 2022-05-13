@@ -16,8 +16,7 @@ export default function NewsPage() {
   };
   return (
     <Layout title="News">
-      <h1>News</h1>
-      {/* <ImageHeader mtitle="News" />
+      <ImageHeader mtitle="News" />
 
       <Container>
         <div className={styles.title}>Latest News</div>
@@ -43,29 +42,29 @@ export default function NewsPage() {
             </Col>
           ))}
         </Row>
-      </Container> */}
+      </Container>
     </Layout>
   );
 }
 
-// export async function getServerSideProps() {
-//   // const res = await fetch(`/api/news`);
-//   // const news = await res.json();
+export async function getServerSideProps() {
+  // const res = await fetch(`/api/news`);
+  // const news = await res.json();
 
-//   const data = await fetchNews();
-//   const news = await data.json();
+  const data = await fetchNews();
+  const news = await data.json();
 
-//   if (!news) {
-//     return {
-//       redirect: {
-//         destination: "/",
-//         permanent: false,
-//         // statusCode: 301
-//       },
-//     };
-//   }
+  if (!news) {
+    return {
+      redirect: {
+        destination: "/",
+        permanent: false,
+        // statusCode: 301
+      },
+    };
+  }
 
-//   return {
-//     props: { news },
-//   };
-// }
+  return {
+    props: { news },
+  };
+}
