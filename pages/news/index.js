@@ -19,7 +19,7 @@ export default function NewsPage() {
       <ImageHeader mtitle="News" />
 
       <Container>
-        <div className={styles.title}>Latest News</div>
+        <div className={styles.title}>Latest News News</div>
 
         <Row xs={1} md={2} className="g-4 container my-5 mx-2">
           {news.map((n) => (
