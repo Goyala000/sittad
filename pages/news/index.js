@@ -22,25 +22,29 @@ export default function NewsPage() {
         <div className={styles.title}>Latest News News</div>
 
         <Row xs={1} md={2} className="g-4 container my-5 mx-2">
-          {news.map((n) => (
-            <Col key={n._id}>
-              <Card>
-                <Card.Img variant="top" src={`${n.image}`} />
-                <Card.Body>
-                  <p>
-                    {new Date(n.createdAt).toLocaleDateString("en-US", options)}
-                  </p>
-                  <Link href={`/news/${n._id}`}>
-                    <Card.Title>{n.title}</Card.Title>
-                  </Link>
-                  <Card.Text>
-                    {" "}
-                    {n.description && n.description.substring(0, 299)}.......
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          ))}
+          {news &&
+            news.map((n) => (
+              <Col key={n._id}>
+                <Card>
+                  <Card.Img variant="top" src={`${n.image}`} />
+                  <Card.Body>
+                    <p>
+                      {new Date(n.createdAt).toLocaleDateString(
+                        "en-US",
+                        options
+                      )}
+                    </p>
+                    <Link href={`/news/${n._id}`}>
+                      <Card.Title>{n.title}</Card.Title>
+                    </Link>
+                    <Card.Text>
+                      {" "}
+                      {n.description && n.description.substring(0, 299)}.......
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+            ))}
         </Row>
       </Container>
     </Layout>
