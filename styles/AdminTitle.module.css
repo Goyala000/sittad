@@ -1,0 +1,11 @@
+.mainTitle {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 10px;
+
+}
+
+.title h3 {
+    text-transform: uppercase;
+    font-weight: 20px;
+}

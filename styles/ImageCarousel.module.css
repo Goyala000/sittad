@@ -1,0 +1,14 @@
+.carouselStyler {
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    object-fit: cover;
+    opacity: 0.8;
+    display: block;
+    width: 100%;
+}
+
+.carouselItemContainer {
+    transition: transform 0.2s ease-in-out;
+}

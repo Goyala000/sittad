@@ -1,0 +1,126 @@
+.aboutContent {
+    display: flex;
+    gap: 40px;
+    margin: 70px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutText {
+    flex: 1.4;
+    padding: 10px 20px;
+    line-height: 35px;
+}
+
+.aboutText h2 {
+    margin: 35px 0;
+    color: #2E476D;
+    font-size: 36px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    line-height: 1.2;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.aboutText p {
+    margin: 40px 0;
+}
+
+.aboutText button {
+    width: 40%;
+    padding: 15px 0 !important;
+}
+
+.aboutImage {
+    flex: 1;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.missionContent {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 30px;
+    margin: 60px 0;
+}
+
+.missionContent p {
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+.backgroundSurface {
+    background-image: url(/images/image9.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 300px;
+}
+
+.backgroundContainer {
+    background-color: #343a40;
+    opacity: 0.91;
+    padding: 60px 0;
+}
+
+.saying {
+    padding: 30px 0;
+    width: 85%;
+    margin-bottom: 80px;
+}
+
+.saying h4 {
+    color: #fff;
+    line-height: 35px;
+}
+
+.saying p {
+    color: #fff;
+    float: right;
+}
+
+.projectContent h2{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+}
+
+.singleProject {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: -350px;
+    padding-bottom: 80px;
+}
+
+.carouselContainer {
+    padding: 10px 25px;
+    margin-top: 30px;
+}
+
+.carouselContent {
+    margin: 10px 0;
+}
+
+.carouselContent p {
+    padding: 5px 0;
+    text-transform: capitalize;
+    color: #f1573e;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.carouselContent h4 {
+    color: #2d476e;
+}
+
+.carouselContent h5 {
+    margin: 10px 0;
+    color: #f1573e;
+    font-weight: 500;
+    float: left;
+}
+

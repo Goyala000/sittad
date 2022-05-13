@@ -1,0 +1,51 @@
+.imageContainerHeader {
+  background-image: url(/images/image11.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 0px -130px;
+}
+
+.imageTitle {
+  text-align: center;
+  padding: 120px 0;
+}
+
+.imageTitle h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.imageSubTitle {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.imageSubTitle span {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.optionalActiveImgHeader {
+  cursor: pointer;
+}
+
+.activeImgHeader {
+  color: #fcaf1b !important;
+}
+
+.imageContentMenus {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px;
+}
+
+.imageContentMenus li:first-of-type {
+  cursor: pointer;
+}
